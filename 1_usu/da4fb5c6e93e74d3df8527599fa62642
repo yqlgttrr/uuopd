@@ -1,0 +1,201 @@
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+ 
+        <div class="row">
+            <div class="col-lg-6 col-xl-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-4">Add Video</h5>
+
+                            <div class="panel-body">
+                                <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.css" rel="stylesheet">
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.js"></script>
+                                <form action="upvideo.php" enctype="multipart/form-data" class="dropzone" id="image-upload">
+                                    <input type="text" name="username" value="SWhxMUpJbW9jaSsybzUxaGs1VzRVdz09" hidden />
+                                </form>
+                                <style>
+                                    body.dark .dropzone {
+                                        background: #0c243d;
+                                    }
+                                    .dz-default.dz-message span {
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                    }
+                                    #datatable .card-body {
+                                        max-height: 388px;
+                                        overflow: auto;
+                                    }
+                                    .dropzone {
+                                        padding: 83px 20px;
+                                    }
+                                </style>
+                                <script type="text/javascript">
+                                    Dropzone.options.imageUpload = {
+                                        maxFilesize: 99999,
+                                        acceptedFiles: ".ts,.mp4,.mkv, .pdf, .word, .txt, .zip, .rar, .png, .jpg, .webp",
+                                        dictDefaultMessage: "Drop files here to upload (support .mp4, .mkv, .ts)",
+                                    };
+                                </script>
+                            </div>
+                       
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-lg-6 col-xl-8">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-4">List video</h5>
+             			<!-- BEGIN #datatable -->
+            						<table id="dataTable" class="table text-nowrap w-100" style="max-height: 260px; display: block; overflow: auto;">
+            							<thead>
+            								<tr>
+            									<th>ID</th>
+            									<th>Name video</th>
+            									<th>Direct link</th>
+            									<th>Download</th>
+            									<th>Size</th>
+            									<th>Date</th>
+            									 
+            									<th>Action</th>
+            									
+            								</tr>
+            							</thead>
+            							<tbody>
+            							    	
+                                            		<tr>
+                                            			<td class="hide_mb">
+                                            				44 
+                                            				
+                                            			</td>
+                                            			
+                                            			
+                                            
+                                            			<td id="namevd">
+                                            			    <span  class="name_file" 
+                                            			        data="Thiet-ke-chua-co-ten|598b3e71ec378bd83e0a727608b5db01"
+                                            				    value="Thiet-ke-chua-co-ten" 
+                                            				    title="Thiet-ke-chua-co-ten">
+                                            					Thiet-ke-chua-co-ten
+                                            				</span>
+                                            			</td>
+                                            			
+                                            			<td>
+                                            			    <a href="https://up.hh3d.cc/input/1_Thiet-ke-chua-co-ten.mp4" target="_blank">Link Download</a>
+                                            			</td>
+                                            			
+                                            			<td>
+                                            			    
+                                            			    <a href="https://up.hh3d.cc/20Azqq" target="_blank">https://up.hh3d.cc/20Azqq</a>
+                                            			</td>
+                                            
+                                            			<td>10,84 MB</td>
+                                            			
+                                            			<td>15-11-2024 14:04:01</td>
+                                            			 
+                                            			<td class="selection2">
+                                            			    <button id="start" class="btn btn-info" data-vd="https://up.hh3d.cc/input/1_Thiet-ke-chua-co-ten.mp4|SWhxMUpJbW9jaSsybzUxaGs1VzRVdz09|Thiet-ke-chua-co-ten">
+                                            					<i class="icon-plus " aria-hidden="true"></i>Add</button>
+                                            				</button>
+                                            				
+                                            				 
+                                            				    <button type="button" data-name="1_Thiet-ke-chua-co-ten.mp4" data-id="44" class="deleteBtn btn btn-danger "><i class="icon-trash " aria-hidden="true"></i>Del</button>
+                                            			 
+                                            			</td>
+                                            
+                                            		</tr>	
+                                            		<tr>
+                                            			<td class="hide_mb">
+                                            				43 
+                                            				
+                                            			</td>
+                                            			
+                                            			
+                                            
+                                            			<td id="namevd">
+                                            			    <span  class="name_file" 
+                                            			        data="madara-1.7.4|598b3e71ec378bd83e0a727608b5db01"
+                                            				    value="madara-1.7.4" 
+                                            				    title="madara-1.7.4">
+                                            					madara-1.7.4
+                                            				</span>
+                                            			</td>
+                                            			
+                                            			<td>
+                                            			    <a href="https://up.hh3d.cc/input/1_madara-1.7.4.zip" target="_blank">Link Download</a>
+                                            			</td>
+                                            			
+                                            			<td>
+                                            			    
+                                            			    <a href="https://up.hh3d.cc/2hcfWm" target="_blank">https://up.hh3d.cc/2hcfWm</a>
+                                            			</td>
+                                            
+                                            			<td>13,78 MB</td>
+                                            			
+                                            			<td>15-11-2024 14:02:31</td>
+                                            			 
+                                            			<td class="selection2">
+                                            			    <button id="start" class="btn btn-info" data-vd="https://up.hh3d.cc/input/1_madara-1.7.4.zip|SWhxMUpJbW9jaSsybzUxaGs1VzRVdz09|madara-1.7.4">
+                                            					<i class="icon-plus " aria-hidden="true"></i>Add</button>
+                                            				</button>
+                                            				
+                                            				 
+                                            				    <button type="button" data-name="1_madara-1.7.4.zip" data-id="43" class="deleteBtn btn btn-danger "><i class="icon-trash " aria-hidden="true"></i>Del</button>
+                                            			 
+                                            			</td>
+                                            
+                                            		</tr>	
+                                            		<tr>
+                                            			<td class="hide_mb">
+                                            				42 
+                                            				
+                                            			</td>
+                                            			
+                                            			
+                                            
+                                            			<td id="namevd">
+                                            			    <span  class="name_file" 
+                                            			        data="madara-child-1.0.3|598b3e71ec378bd83e0a727608b5db01"
+                                            				    value="madara-child-1.0.3" 
+                                            				    title="madara-child-1.0.3">
+                                            					madara-child-1.0.3
+                                            				</span>
+                                            			</td>
+                                            			
+                                            			<td>
+                                            			    <a href="https://up.hh3d.cc/input/1_madara-child-1.0.3.zip" target="_blank">Link Download</a>
+                                            			</td>
+                                            			
+                                            			<td>
+                                            			    
+                                            			    <a href="https://up.hh3d.cc/yyQ1uJ" target="_blank">https://up.hh3d.cc/yyQ1uJ</a>
+                                            			</td>
+                                            
+                                            			<td>474,91 KB</td>
+                                            			
+                                            			<td>15-11-2024 11:06:04</td>
+                                            			 
+                                            			<td class="selection2">
+                                            			    <button id="start" class="btn btn-info" data-vd="https://up.hh3d.cc/input/1_madara-child-1.0.3.zip|SWhxMUpJbW9jaSsybzUxaGs1VzRVdz09|madara-child-1.0.3">
+                                            					<i class="icon-plus " aria-hidden="true"></i>Add</button>
+                                            				</button>
+                                            				
+                                            				 
+                                            				    <button type="button" data-name="1_madara-child-1.0.3.zip" data-id="42" class="deleteBtn btn btn-danger "><i class="icon-trash " aria-hidden="true"></i>Del</button>
+                                            			 
+                                            			</td>
+                                            
+                                            		</tr>                                        </tbody>
+            						</table>
+            		</div>
+            	</div>
+            </div>
+            
+        <!-- END Row -->
+</div>
+			<!-- END #datatable -->
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="/assets/js/dash.js"></script>
+
+
+
